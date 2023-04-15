@@ -54,6 +54,7 @@ async def check():
                 'chargingRemainingTime': battery_status.chargingRemainingTime,
                 'chargingInstantaneousPower': battery_status.chargingInstantaneousPower,
             })
+    print('Done!')
 
 
 if __name__ == '__main__':
