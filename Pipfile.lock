@@ -135,11 +135,11 @@
         },
         "attrs": {
             "hashes": [
-                "sha256:29e95c7f6778868dbd49170f98f8818f78f3dc5e0e37c0b1f474e3561b240836",
-                "sha256:c9227bfc2f01993c03f68db37d1d15c9690188323c067c641f1a35ca58185f99"
+                "sha256:1f28b4522cdc2fb4256ac1a020c78acf9cba2c6b461ccd2c126f3aa8e8335d04",
+                "sha256:6279836d581513a26f1bf235f9acd333bc9115683f14f7e8fae46c98fc50e015"
             ],
-            "markers": "python_version >= '3.6'",
-            "version": "==22.2.0"
+            "markers": "python_version >= '3.7'",
+            "version": "==23.1.0"
         },
         "charset-normalizer": {
             "hashes": [
@@ -535,19 +535,19 @@
         },
         "renault-api": {
             "hashes": [
-                "sha256:7deda79ad710eb22508bc59eee6c855dce0149e1271d181eb7a1bb0a229b607a",
-                "sha256:c852dc8edcebf56bdf06f93f059d6cfad90459c72ed72e8be61d7aa0c1a50925"
+                "sha256:90bfbd370c3fbb12171acf8dcfadfad4640873a19559bb46d41418d86918429c",
+                "sha256:d4dc57dc53809e6581681dfdac6799859f26ab6fcabff6a48a99b0531e70e7a4"
             ],
             "index": "pypi",
-            "version": "==0.1.12"
+            "version": "==0.1.13"
         },
         "setuptools": {
             "hashes": [
-                "sha256:257de92a9d50a60b8e22abfcbb771571fde0dbf3ec234463212027a4eeecbe9a",
-                "sha256:e728ca814a823bf7bf60162daf9db95b93d532948c4c0bea762ce62f60189078"
+                "sha256:888be97fde8cc3afd60f7784e678fa29ee13c4e5362daa7104a93bba33646c50",
+                "sha256:b7e53a01c6c654d26d2999ee033d8c6125e5fa55f03b7b193f937ae7ac999f22"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==67.6.1"
+            "version": "==67.7.0"
         },
         "six": {
             "hashes": [
