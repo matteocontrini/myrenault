@@ -1,0 +1,9 @@
+[project]
+name = "myrenault"
+version = "0.1.0"
+description = "Renault vehicle data collector"
+requires-python = ">=3.9"
+dependencies = [
+    "renault-api",
+    "pymongo",
+]
