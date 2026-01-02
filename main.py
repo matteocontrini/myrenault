@@ -3,8 +3,6 @@ import os
 from datetime import datetime, timezone
 
 import aiohttp
-from apscheduler.schedulers.asyncio import AsyncIOScheduler
-from apscheduler.triggers.cron import CronTrigger
 from bson import CodecOptions
 from pymongo import MongoClient
 from pymongo.collection import Collection
@@ -58,10 +56,4 @@ async def check():
 
 
 if __name__ == '__main__':
-    scheduler = AsyncIOScheduler()
-    scheduler.add_job(check, trigger=CronTrigger(minute='*/15'))
-    scheduler.start()
-    try:
-        asyncio.get_event_loop().run_forever()
-    except (KeyboardInterrupt, SystemExit):
-        pass
+    asyncio.run(check())
