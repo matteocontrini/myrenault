@@ -859,7 +859,7 @@ dependencies = [
     { name = "pymongo" },
     { name = "renault-api", version = "0.3.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.9.2'" },
     { name = "renault-api", version = "0.4.4", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.9.2' and python_full_version < '3.10'" },
-    { name = "renault-api", version = "0.5.8", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.10'" },
+    { name = "renault-api", version = "0.5.9", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.10'" },
 ]
 
 [package.metadata]
@@ -1278,7 +1278,7 @@ wheels = [
 
 [[package]]
 name = "renault-api"
-version = "0.5.8"
+version = "0.5.9"
 source = { registry = "https://pypi.org/simple" }
 resolution-markers = [
     "python_full_version >= '3.10'",
@@ -1288,9 +1288,9 @@ dependencies = [
     { name = "marshmallow-dataclass", marker = "python_full_version >= '3.10'" },
     { name = "pyjwt", marker = "python_full_version >= '3.10'" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/04/3a/77070d782a57ef15c07764e3ee94231e95d70e691d8a1960a0c568d1d5de/renault_api-0.5.8.tar.gz", hash = "sha256:952aa1474e63efa91fa06251d9cb224c65700cb196173f72f4d3eda588657f28", size = 40474, upload-time = "2026-05-11T05:00:01.291Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/bf/c5/1499d1a4f80530ef632e9ee7aaafc6ca8a7ca681b0f45fb414b8aaf156ac/renault_api-0.5.9.tar.gz", hash = "sha256:9b233b3623517f6c274b9999ec372c64634a043abb9d882c760b93969e907880", size = 38933, upload-time = "2026-05-20T06:19:16.08Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/3f/5b/bb5258e2faf2559367684b34a7e471e9fcbaf395fd936c3d6cccf14ef8ff/renault_api-0.5.8-py3-none-any.whl", hash = "sha256:c4b5a22cd53a8f1e84460cfc833229f88516c8c3f7be54d7cc3718d5e8309405", size = 53033, upload-time = "2026-05-11T04:59:59.6Z" },
+    { url = "https://files.pythonhosted.org/packages/7b/33/012595f7c30e6c6975033601f6fe08fb1956333317c5679891b95075acaf/renault_api-0.5.9-py3-none-any.whl", hash = "sha256:bd20bbd023e9cf15f623fcef51d123652721f814ae51b84b33caf547df033649", size = 51786, upload-time = "2026-05-20T06:19:14.279Z" },
 ]
 
 [[package]]
